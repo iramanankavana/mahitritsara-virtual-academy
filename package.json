@@ -1,0 +1,12 @@
+{
+  "name": "mahitritsara-virtual-academy",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "MAHITRITSARA Virtual Academy — application web progressive utilisable hors connexion",
+  "scripts": {
+    "dev": "node server.mjs . 5173",
+    "build": "node build.mjs",
+    "preview": "node server.mjs dist 4173"
+  }
+}
